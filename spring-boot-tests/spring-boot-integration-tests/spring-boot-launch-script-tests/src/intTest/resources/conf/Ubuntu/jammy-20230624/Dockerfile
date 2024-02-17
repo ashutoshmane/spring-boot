@@ -1,4 +1,4 @@
-FROM ubuntu:jammy-20230624
+FROM ubuntu:jammy
 RUN apt-get update && \
     apt-get install -y software-properties-common curl && \
     mkdir -p /opt/openjdk && \
